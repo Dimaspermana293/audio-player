@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(0, 247, 255), rgb(0, 91, 165));
+}
+.player{
+    position: absolute;
+    width: 350px;
+    background: #eaeaea;
+    border-radius: 20px;
+}
+.player .img-box{
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+.player .img-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.player audio{
+    width: 100%;
+    outline: none;
+}
